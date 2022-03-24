@@ -20,12 +20,14 @@ html {
     font-family: 'Urbanist', sans-serif;
 }
 
+/* HEADER'S STYLES */
 header {
     background-color: var(--backround-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
+    border-block-end: 1px solid #8A8AA0;
 }
 
 .nav_list {
@@ -77,6 +79,54 @@ header {
 .wallet_icon {
     margin-inline-end: 10px;
 }
+
+/* HEADER'S STYLES END */
+
+
+/* Main's Styles */
+main {
+    background-color: var(--backround-color);
+    width: 100%;
+    min-height: 100vh;
+}
+
+    /*Hero's syles*/
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero_info {
+    width: 634px;
+    height: 364p;
+    margin-block-start: 134px;
+}
+
+.hero_title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    color: white;
+}
+
+.hero_title_fancy {
+    background: linear-gradient(180deg, rgba(226,80,229,1) 10%, rgba(75,80,230,1) 55%);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    color: var(--backround-color);
+    padding: 6px 0;
+}
+
+
+
+
+    /*Hero's syles end*/
+
+/* Main's Styles end */
+
+
 
 
 
